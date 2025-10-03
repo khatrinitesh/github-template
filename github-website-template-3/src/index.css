@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+}
+
+::selection,
+::-webkit-selection {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+a {
+}
+
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
+html,
+body {
+  height: 100dvh;
+  min-height: 100dvh;
+}
+
+:root {
+}
+
+.appLayout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100dvh;
+}
