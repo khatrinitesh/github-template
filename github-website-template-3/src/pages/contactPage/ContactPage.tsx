@@ -1,7 +1,11 @@
-import React from "react";
+import Details from "./../../components/Details";
 
 const ContactPage = () => {
-  return <div></div>;
+  return (
+    <>
+      <Details />
+    </>
+  );
 };
 
 export default ContactPage;

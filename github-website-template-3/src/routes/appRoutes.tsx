@@ -1,5 +1,6 @@
 import type { RouteDefinition } from "../interface";
-import AboutPage from "../pages/AboutPage";
+import AboutPage from "../pages/aboutPage/AboutPage";
+
 import ContactPage from "../pages/contactPage/ContactPage";
 import HomePage from "../pages/homePage/HomePage";
 import { PATHS } from "./path";
