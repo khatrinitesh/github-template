@@ -1,0 +1,26 @@
+#footer {
+  padding: 2rem 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.footer-dark {
+  background-color: #111;
+  color: #fff;
+}
+
+.footer-light {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

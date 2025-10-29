@@ -1,0 +1,1 @@
+header{padding:1.2rem 0}header nav{display:flex;justify-content:space-between;align-items:center;padding:0 .4rem}header nav .header-logo img{max-width:120px}header nav .header-text{text-transform:uppercase;font-size:clamp(.4rem,4vw,1.1rem)}@media only screen and (max-width: 767px){header nav .header-text{white-space:pre-wrap}header nav .header-logo{padding-right:3rem}}
