@@ -1,23 +1,16 @@
 import { Container } from "react-bootstrap";
-import { useFooterStore } from "../../store/useFooterStore/useFooterStore";
-import { FOOTER_CONTENT } from "../../constants/footerData";
+import { getImage } from "../../utils/assets";
 import "./Footer.css";
-
 const Footer = () => {
-  const { theme, year } = useFooterStore();
   return (
-    <footer id="footer" className={`footer-${theme}`}>
+    <footer id="footer" className="footer">
       <Container>
         <div className="content">
           <div className="logo">
-            <img
-              src={FOOTER_CONTENT.logoSrc}
-              alt={FOOTER_CONTENT.altText}
-              className="footer-logo"
-            />
+            <img src={getImage("footer_logo.png")} alt="Sharks" />
           </div>
           <p className="footer-text">
-            {FOOTER_CONTENT.description} © {year}.
+            A TechnikLabs Project. All Rights Reserved 2021.
           </p>
         </div>
       </Container>

@@ -1,0 +1,42 @@
+/* Light Theme Styles */
+.accordion-button {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.accordion-body {
+  background-color: #fff;
+  color: black;
+}
+
+/* Dark Theme Styles */
+.white-body {
+  color: white;
+}
+
+.faq-accordian-item .accordion-button {
+  background-color: #333;
+  color: white;
+}
+
+.faq-accordian-item .accordion-body {
+  background-color: #222;
+  color: white;
+}
+
+.accordion-button::after {
+  background-image: url("../../assets/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/minus.png");
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  background: transparent;
+  color: black;
+}
+
+.accordion-flush .accordion-item.faq-accordian-item .accordion-button {
+  color: white;
+}

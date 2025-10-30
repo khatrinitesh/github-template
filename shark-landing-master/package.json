@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0",
+    "@tanstack/react-router": "^1.133.36",
+    "@types/history": "^4.7.11",
+    "bootstrap": "^5.0.2",
+    "history": "^5.3.0",
     "react": "^19.1.1",
-    "react-bootstrap": "^2.0.0-beta.4",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1",
-    "styled-components": "^5.3.0",
+    "react-router-dom": "^7.9.5",
+    "styled-components": "^5.3.11",
     "swiper": "^6.8.4",
     "zustand": "^5.0.8"
   },
@@ -23,6 +27,7 @@
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
+    "@types/styled-components": "^5.1.35",
     "@vitejs/plugin-react": "^5.0.4",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
